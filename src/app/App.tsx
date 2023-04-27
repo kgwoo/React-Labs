@@ -1,12 +1,12 @@
 import React from "react";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
-import * as Service from "app/service";
+import * as Project from "app/project";
 
 const Main: React.FC = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" Component={Service.Home} />
+        <Route path="/" Component={Project.InfiniteScroll} />
       </Routes>
     </BrowserRouter>
   );
