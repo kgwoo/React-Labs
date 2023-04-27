@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "../style/InfiniteScroll.css";
-import useInterscetionObserver from "../hooks/useIntersectionObserver";
+import useInterscetionObserver from "../../hooks/useIntersectionObserver";
 
 interface ItemProps {
   name: string;
