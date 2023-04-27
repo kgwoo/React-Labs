@@ -1,4 +1,4 @@
 import Home from "./home/Home";
-import InfiniteScroll from "./infinite-scroll/view/InfiniteScroll";
+import IntersectionObserver from "./Intersection-Observer/view/IntersectionObserver";
 
-export { Home, InfiniteScroll };
+export { Home, IntersectionObserver };

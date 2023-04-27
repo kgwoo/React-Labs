@@ -6,7 +6,7 @@ const Main: React.FC = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" Component={Project.InfiniteScroll} />
+        <Route path="/" Component={Project.IntersectionObserver} />
       </Routes>
     </BrowserRouter>
   );
