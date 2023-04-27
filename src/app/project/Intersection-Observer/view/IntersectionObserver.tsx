@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useCallback } from "react";
+import React, { useEffect, useState } from "react";
 import "./style/InfiniteScroll.css";
 import { users, User } from "../model/Users";
 import * as Components from "./components";
@@ -38,7 +38,6 @@ const IntersectionObserver: React.FC = () => {
             />
           );
         })}
-        {/* <div ref={target}>로딩 예정</div> */}
       </section>
     </main>
   );
