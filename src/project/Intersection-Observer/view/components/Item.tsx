@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../style/InfiniteScroll.css";
+import styles from "../style/InfiniteScroll.module.css";
 import useInterscetionObserver from "../../hooks/useIntersectionObserver";
 
 interface ItemProps {
@@ -18,7 +18,7 @@ const Item: React.FC<ItemProps> = (props) => {
   }, [isInViewPort]);
 
   return (
-    <div className="item" ref={target}>
+    <div className={styles.item} ref={target}>
       {props.name}
     </div>
   );

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./style/InfiniteScroll.css";
+import styles from "./style/InfiniteScroll.module.css";
 import { users, User } from "../model/Users";
 import * as Components from "./components";
 
@@ -26,8 +26,8 @@ const IntersectionObserver: React.FC = () => {
   };
 
   return (
-    <main className="main">
-      <section className="section-layer">
+    <main className={styles.main}>
+      <section className={styles.section_layer}>
         {userList.map((user, index) => {
           return (
             <Components.Item
