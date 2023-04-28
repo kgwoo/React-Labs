@@ -1,12 +1,12 @@
 import React from "react";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
-import * as Project from "app/project";
+import IntersectionObserver from "project/Intersection-Observer";
 
 const Main: React.FC = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" Component={Project.IntersectionObserver} />
+        <Route path="/" Component={IntersectionObserver} />
       </Routes>
     </BrowserRouter>
   );

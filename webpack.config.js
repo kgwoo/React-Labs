@@ -4,7 +4,7 @@ const webpack = require("webpack");
 
 module.exports = () => {
   return {
-    entry: "./src/app/index",
+    entry: "./src/project/index",
     output: {
       filename: "bundle.js",
       path: path.resolve(__dirname, "dist"),
@@ -32,6 +32,6 @@ module.exports = () => {
         },
       ],
     },
-    plugins: [new HtmlWebpackPlugin({ template: "./src/app/index.html" })],
+    plugins: [new HtmlWebpackPlugin({ template: "./src/project/index.html" })],
   };
 };
