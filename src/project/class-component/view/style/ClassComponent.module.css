@@ -1,0 +1,13 @@
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.padding {
+  padding: 20px;
+}
