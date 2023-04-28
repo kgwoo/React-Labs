@@ -1,3 +1,3 @@
-import IntersectionObserver from "./view/view.IntersectionObserver";
+import IntersectionObserver from "./view/IntersectionObserver.view";
 
 export default IntersectionObserver;
