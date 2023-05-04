@@ -5,6 +5,7 @@ import ShareStateByLiftingItUp from "./share-state-by-lifting-it-up/view/ShareSt
 import AsyncAwaitView from "./async-await/view/AsyncAwait.view";
 import ClassComponent from "./class-component/view";
 import ContextAPIView from "./context-api";
+import ContextAPIV2 from "./context-api-v2/ContextAPIV2.view";
 
 const Main: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ const Main: React.FC = () => {
         <Route path="/intersection-observer" Component={IntersectionObserver} />
         <Route path="/class-component" Component={ClassComponent} />
         <Route path="/context-api" Component={ContextAPIView} />
+        <Route path="/context-api/v2" Component={ContextAPIV2} />
       </Routes>
     </BrowserRouter>
   );
